@@ -1,0 +1,4169 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-11-18T08:14:07.073Z",
+  "marketDate": "2026-11-17",
+  "windowStart": "2025-11-17",
+  "coverage": "臺灣證券交易所上市、以國內股票為成分且不含國外成分股的原型及主動式 ETF；不含上櫃、債券、槓桿與反向 ETF。",
+  "dividendMethod": "以發放日落在基準日前12個月且已發放的每單位配息加總，除以最新收盤價；依除息日校正已確認的0050及0052分割，其他分割資料可能不完整。未滿一年不年化。",
+  "sources": {
+    "profiles": "https://openapi.twse.com.tw/v1/opendata/t187ap47_L",
+    "prices": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL",
+    "dividends": "https://www.twse.com.tw/rwd/zh/ETF/etfDiv?response=json"
+  },
+  "knownSplits": [
+    {
+      "code": "0050",
+      "date": "2025-06-18",
+      "ratio": 4,
+      "source": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d696b406fc0196ce290acb0065.pdf"
+    },
+    {
+      "code": "0052",
+      "date": "2025-11-26",
+      "ratio": 7,
+      "source": "https://investoredu.twse.com.tw/Mobile_pages/..%2FFileSystem%2FFileUpload%2F2f4bbb9f-2589-4318-a307-3d22eea8e971.pdf"
+    }
+  ],
+  "funds": [
+    {
+      "code": "00400A",
+      "name": "主動國泰動能高息",
+      "fullName": "主動國泰動能高息",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-04-09",
+      "underOneYear": true,
+      "price": 11.22,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.51,
+      "volume": 63785513,
+      "trailingDividend": 0.48,
+      "trailingYield": 4.27807486631016,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00400A",
+          "exDate": "2026-10-08",
+          "paymentDate": "2026-11-05",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00400A",
+          "exDate": "2026-09-07",
+          "paymentDate": "2026-10-05",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00400A",
+          "exDate": "2026-08-05",
+          "paymentDate": "2026-08-31",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00400A",
+          "exDate": "2026-07-09",
+          "paymentDate": "2026-07-31",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00401A",
+      "name": "主動摩根台灣鑫收",
+      "fullName": "主動摩根台灣鑫收",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-04-10",
+      "underOneYear": true,
+      "price": 11.41,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.36,
+      "volume": 14967398,
+      "trailingDividend": 0.377,
+      "trailingYield": 3.304119193689746,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00401A",
+          "exDate": "2026-10-15",
+          "paymentDate": "2026-11-05",
+          "amount": 0.131,
+          "adjustedAmount": 0.131,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00401A",
+          "exDate": "2026-09-14",
+          "paymentDate": "2026-10-06",
+          "amount": 0.125,
+          "adjustedAmount": 0.125,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00401A",
+          "exDate": "2026-08-14",
+          "paymentDate": "2026-09-04",
+          "amount": 0.121,
+          "adjustedAmount": 0.121,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "fullName": "主動統一升級50",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-05-12",
+      "underOneYear": true,
+      "price": 7.95,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.35,
+      "volume": 302485747,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00404A",
+      "name": "主動聯博動能50",
+      "fullName": "主動聯博動能50",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-06-09",
+      "underOneYear": true,
+      "price": 7.89,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.16,
+      "volume": 22081652,
+      "trailingDividend": 0.36,
+      "trailingYield": 4.562737642585551,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00404A",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-13",
+          "amount": 0.36,
+          "adjustedAmount": 0.36,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00405A",
+      "name": "主動富邦台灣龍耀",
+      "fullName": "主動富邦台灣龍耀",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-06-09",
+      "underOneYear": true,
+      "price": 6.46,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.34,
+      "volume": 107476344,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00406A",
+      "name": "主動中信台灣收益",
+      "fullName": "主動中信台灣收益",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-06-11",
+      "underOneYear": true,
+      "price": 6.79,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.31,
+      "volume": 1596430466,
+      "trailingDividend": 0.404,
+      "trailingYield": 5.9499263622974965,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00406A",
+          "exDate": "2026-10-05",
+          "paymentDate": "2026-11-02",
+          "amount": 0.138,
+          "adjustedAmount": 0.138,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00406A",
+          "exDate": "2026-09-02",
+          "paymentDate": "2026-09-30",
+          "amount": 0.138,
+          "adjustedAmount": 0.138,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00406A",
+          "exDate": "2026-07-31",
+          "paymentDate": "2026-08-26",
+          "amount": 0.128,
+          "adjustedAmount": 0.128,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00407A",
+      "name": "主動凱基台灣",
+      "fullName": "主動凱基台灣",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-06-24",
+      "underOneYear": true,
+      "price": 7.26,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.41,
+      "volume": 52863232,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00408A",
+      "name": "主動第一金優股息",
+      "fullName": "主動第一金優股息",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-07-15",
+      "underOneYear": true,
+      "price": 7.67,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.33,
+      "volume": 2465396,
+      "trailingDividend": 0.21,
+      "trailingYield": 2.737940026075619,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00408A",
+          "exDate": "2026-10-21",
+          "paymentDate": "2026-11-13",
+          "amount": 0.21,
+          "adjustedAmount": 0.21,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00410A",
+      "name": "主動永豐科技趨勢",
+      "fullName": "主動永豐科技趨勢",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-08-03",
+      "underOneYear": true,
+      "price": 9.28,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.37,
+      "volume": 10564994,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00413A",
+      "name": "主動玉山關鍵科技",
+      "fullName": "主動玉山關鍵科技",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-11-11",
+      "underOneYear": true,
+      "price": 9.19,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.6,
+      "volume": 12833887,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00415A",
+      "name": "主動群益核心50",
+      "fullName": "主動群益核心50",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-10-20",
+      "underOneYear": true,
+      "price": 7,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.41,
+      "volume": 55714122,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00416A",
+      "name": "主動台新臺灣中小",
+      "fullName": "主動台新臺灣中小",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-11-03",
+      "underOneYear": true,
+      "price": 7.91,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.55,
+      "volume": 26787789,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00418A",
+      "name": "主動復華台灣新星",
+      "fullName": "主動復華台灣新星",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-11-11",
+      "underOneYear": true,
+      "price": 8.6,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.51,
+      "volume": 56519474,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "fullName": "元大台灣50",
+      "index": "臺灣50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2003-06-30",
+      "underOneYear": false,
+      "price": 94,
+      "priceDate": "2026-11-17",
+      "dailyChange": -2.45,
+      "volume": 408719094,
+      "trailingDividend": 1.6,
+      "trailingYield": 1.702127659574468,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "0050",
+          "exDate": "2026-07-21",
+          "paymentDate": "2026-08-10",
+          "amount": 0.6,
+          "adjustedAmount": 0.6,
+          "splitDivisor": 1
+        },
+        {
+          "code": "0050",
+          "exDate": "2026-01-22",
+          "paymentDate": "2026-02-11",
+          "amount": 1,
+          "adjustedAmount": 1,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": [
+        {
+          "code": "0050",
+          "date": "2025-06-18",
+          "ratio": 4,
+          "source": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d696b406fc0196ce290acb0065.pdf"
+        }
+      ]
+    },
+    {
+      "code": "0051",
+      "name": "元大中型100",
+      "fullName": "元大中型100",
+      "index": "臺灣中型100指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2006-08-31",
+      "underOneYear": false,
+      "price": 123.8,
+      "priceDate": "2026-11-17",
+      "dailyChange": -2.95,
+      "volume": 119700,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0052",
+      "name": "富邦科技",
+      "fullName": "富邦科技",
+      "index": "臺灣資訊科技指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2006-09-12",
+      "underOneYear": false,
+      "price": 53.75,
+      "priceDate": "2026-11-17",
+      "dailyChange": -1.45,
+      "volume": 37910485,
+      "trailingDividend": 1.199,
+      "trailingYield": 2.2306976744186047,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "0052",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 1.199,
+          "adjustedAmount": 1.199,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": [
+        {
+          "code": "0052",
+          "date": "2025-11-26",
+          "ratio": 7,
+          "source": "https://investoredu.twse.com.tw/Mobile_pages/..%2FFileSystem%2FFileUpload%2F2f4bbb9f-2589-4318-a307-3d22eea8e971.pdf"
+        }
+      ]
+    },
+    {
+      "code": "0053",
+      "name": "元大科技市值(原:元大電子)",
+      "fullName": "元大科技市值(原:元大電子)",
+      "index": "電子類加權股價指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2007-07-16",
+      "underOneYear": false,
+      "price": 204.15,
+      "priceDate": "2026-11-17",
+      "dailyChange": -3.55,
+      "volume": 903654,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0054",
+      "name": "元大台商50",
+      "fullName": "元大台商50",
+      "index": "S&amp;P台商收成指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2007-07-16",
+      "underOneYear": false,
+      "price": null,
+      "priceDate": null,
+      "dailyChange": null,
+      "volume": null,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0055",
+      "name": "元大MSCI金融",
+      "fullName": "元大MSCI金融",
+      "index": "MSCI台灣金融指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2007-07-16",
+      "underOneYear": false,
+      "price": 50.25,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.05,
+      "volume": 2630263,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0056",
+      "name": "元大高股息",
+      "fullName": "元大高股息",
+      "index": "臺灣高股息指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2007-12-26",
+      "underOneYear": false,
+      "price": 49.92,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.68,
+      "volume": 74262670,
+      "trailingDividend": 4.936,
+      "trailingYield": 9.887820512820513,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "0056",
+          "exDate": "2026-10-22",
+          "paymentDate": "2026-11-11",
+          "amount": 1.72,
+          "adjustedAmount": 1.72,
+          "splitDivisor": 1
+        },
+        {
+          "code": "0056",
+          "exDate": "2026-07-21",
+          "paymentDate": "2026-08-10",
+          "amount": 1.35,
+          "adjustedAmount": 1.35,
+          "splitDivisor": 1
+        },
+        {
+          "code": "0056",
+          "exDate": "2026-04-23",
+          "paymentDate": "2026-05-14",
+          "amount": 1,
+          "adjustedAmount": 1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "0056",
+          "exDate": "2026-01-22",
+          "paymentDate": "2026-02-11",
+          "amount": 0.866,
+          "adjustedAmount": 0.866,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0057",
+      "name": "富邦摩台",
+      "fullName": "富邦摩台",
+      "index": "MSCI臺灣指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2008-02-27",
+      "underOneYear": false,
+      "price": 280.35,
+      "priceDate": "2026-11-17",
+      "dailyChange": -11.75,
+      "volume": 50799,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0058",
+      "name": "富邦發達",
+      "fullName": "富邦發達",
+      "index": "臺灣發達指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2008-02-27",
+      "underOneYear": false,
+      "price": null,
+      "priceDate": null,
+      "dailyChange": null,
+      "volume": null,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0059",
+      "name": "富邦金融",
+      "fullName": "富邦金融",
+      "index": "金融保險類股指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2008-02-27",
+      "underOneYear": false,
+      "price": null,
+      "priceDate": null,
+      "dailyChange": null,
+      "volume": null,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "0060",
+      "name": "新台灣",
+      "fullName": "新台灣",
+      "index": "未含電子股50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2008-08-18",
+      "underOneYear": false,
+      "price": null,
+      "priceDate": null,
+      "dailyChange": null,
+      "volume": null,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "006203",
+      "name": "元大MSCI台灣",
+      "fullName": "元大MSCI台灣",
+      "index": "MSCI&#174;臺灣指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2011-05-12",
+      "underOneYear": false,
+      "price": 169.2,
+      "priceDate": "2026-11-17",
+      "dailyChange": -8.25,
+      "volume": 14537,
+      "trailingDividend": 3.05,
+      "trailingYield": 1.802600472813239,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "006203",
+          "exDate": "2026-07-21",
+          "paymentDate": "2026-08-10",
+          "amount": 1.25,
+          "adjustedAmount": 1.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "006203",
+          "exDate": "2026-01-22",
+          "paymentDate": "2026-02-11",
+          "amount": 1.8,
+          "adjustedAmount": 1.8,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "006204",
+      "name": "永豐臺灣加權",
+      "fullName": "永豐臺灣加權",
+      "index": "臺灣證券交易所發行量加權股價指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2011-09-28",
+      "underOneYear": false,
+      "price": 203,
+      "priceDate": "2026-11-17",
+      "dailyChange": -7,
+      "volume": 46663,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "006208",
+      "name": "富邦台50",
+      "fullName": "富邦台50",
+      "index": "臺灣50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2012-07-17",
+      "underOneYear": false,
+      "price": 211.9,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 9013276,
+      "trailingDividend": 4.75,
+      "trailingYield": 2.241623407267579,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "006208",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-10",
+          "amount": 4.75,
+          "adjustedAmount": 4.75,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00690",
+      "name": "兆豐藍籌30",
+      "fullName": "兆豐藍籌30",
+      "index": "藍籌30指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2017-03-31",
+      "underOneYear": false,
+      "price": 62.2,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 708782,
+      "trailingDividend": 4.64,
+      "trailingYield": 7.459807073954982,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00690",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-04",
+          "amount": 2.19,
+          "adjustedAmount": 2.19,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00690",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-05",
+          "amount": 1.4,
+          "adjustedAmount": 1.4,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00690",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-18",
+          "amount": 1.05,
+          "adjustedAmount": 1.05,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00692",
+      "name": "富邦公司治理",
+      "fullName": "富邦公司治理",
+      "index": "臺灣證券交易所公司治理100指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2017-05-17",
+      "underOneYear": false,
+      "price": 80.4,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 1899990,
+      "trailingDividend": 1.92,
+      "trailingYield": 2.388059701492537,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00692",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-10",
+          "amount": 1.92,
+          "adjustedAmount": 1.92,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00701",
+      "name": "國泰股利精選30",
+      "fullName": "國泰股利精選30",
+      "index": "臺灣指數公司低波動股利精選30指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2017-08-17",
+      "underOneYear": false,
+      "price": 41.77,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.1,
+      "volume": 893613,
+      "trailingDividend": 2.3,
+      "trailingYield": 5.506344266219774,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00701",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 1.6,
+          "adjustedAmount": 1.6,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00701",
+          "exDate": "2026-01-20",
+          "paymentDate": "2026-02-12",
+          "amount": 0.7,
+          "adjustedAmount": 0.7,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00713",
+      "name": "元大台灣高息低波",
+      "fullName": "元大台灣高息低波",
+      "index": "臺灣指數公司特選高股息低波動指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2017-09-27",
+      "underOneYear": false,
+      "price": 62.8,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.15,
+      "volume": 5519930,
+      "trailingDividend": 3.0300000000000002,
+      "trailingYield": 4.824840764331211,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00713",
+          "exDate": "2026-09-21",
+          "paymentDate": "2026-10-13",
+          "amount": 1.25,
+          "adjustedAmount": 1.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00713",
+          "exDate": "2026-06-22",
+          "paymentDate": "2026-07-10",
+          "amount": 1,
+          "adjustedAmount": 1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00713",
+          "exDate": "2026-03-20",
+          "paymentDate": "2026-04-14",
+          "amount": 0.78,
+          "adjustedAmount": 0.78,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00728",
+      "name": "第一金工業30",
+      "fullName": "第一金工業30",
+      "index": "臺灣工業菁英30指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2018-04-18",
+      "underOneYear": false,
+      "price": 52,
+      "priceDate": "2026-11-17",
+      "dailyChange": -2.1,
+      "volume": 674141,
+      "trailingDividend": 1.9500000000000002,
+      "trailingYield": 3.7500000000000004,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00728",
+          "exDate": "2026-09-18",
+          "paymentDate": "2026-10-15",
+          "amount": 0.77,
+          "adjustedAmount": 0.77,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00728",
+          "exDate": "2026-06-18",
+          "paymentDate": "2026-07-13",
+          "amount": 0.66,
+          "adjustedAmount": 0.66,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00728",
+          "exDate": "2026-03-19",
+          "paymentDate": "2026-04-14",
+          "amount": 0.52,
+          "adjustedAmount": 0.52,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00730",
+      "name": "富邦臺灣優質高息",
+      "fullName": "富邦臺灣優質高息",
+      "index": "道瓊斯台灣優質高股息30指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2018-02-08",
+      "underOneYear": false,
+      "price": 25.62,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 153612,
+      "trailingDividend": 1.1,
+      "trailingYield": 4.29352068696331,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00730",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-12",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-14",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-10",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-10",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-09",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-11",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-13",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-02-25",
+          "paymentDate": "2026-03-20",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00730",
+          "exDate": "2026-01-20",
+          "paymentDate": "2026-02-12",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00731",
+      "name": "復華富時高息低波",
+      "fullName": "復華富時高息低波",
+      "index": "富時台灣高股息低波動指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2018-04-20",
+      "underOneYear": false,
+      "price": 96.3,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.4,
+      "volume": 474067,
+      "trailingDividend": 2.9619999999999997,
+      "trailingYield": 3.0758047767393557,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00731",
+          "exDate": "2026-08-19",
+          "paymentDate": "2026-09-14",
+          "amount": 1.458,
+          "adjustedAmount": 1.458,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00731",
+          "exDate": "2026-05-20",
+          "paymentDate": "2026-06-15",
+          "amount": 0.752,
+          "adjustedAmount": 0.752,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00731",
+          "exDate": "2026-03-03",
+          "paymentDate": "2026-03-27",
+          "amount": 0.752,
+          "adjustedAmount": 0.752,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00733",
+      "name": "臺灣中小A級動能50 ETF基金",
+      "fullName": "臺灣中小A級動能50 ETF基金",
+      "index": "臺灣指數公司中小型A級動能50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2018-05-17",
+      "underOneYear": false,
+      "price": 54.45,
+      "priceDate": "2026-11-17",
+      "dailyChange": -2.9,
+      "volume": 1713032,
+      "trailingDividend": 2.065,
+      "trailingYield": 3.792470156106519,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00733",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-12",
+          "amount": 1.487,
+          "adjustedAmount": 1.487,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00733",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.578,
+          "adjustedAmount": 0.578,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00742",
+      "name": "新光內需收益",
+      "fullName": "新光內需收益",
+      "index": "臺灣指數公司特選內需高收益指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2018-06-22",
+      "underOneYear": false,
+      "price": null,
+      "priceDate": null,
+      "dailyChange": null,
+      "volume": null,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00850",
+      "name": "元大臺灣ESG永續",
+      "fullName": "元大臺灣ESG永續",
+      "index": "臺灣永續指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2019-08-23",
+      "underOneYear": false,
+      "price": 79.9,
+      "priceDate": "2026-11-17",
+      "dailyChange": -1.65,
+      "volume": 1135917,
+      "trailingDividend": 2.5,
+      "trailingYield": 3.128911138923654,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00850",
+          "exDate": "2026-08-21",
+          "paymentDate": "2026-09-11",
+          "amount": 0.85,
+          "adjustedAmount": 0.85,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00850",
+          "exDate": "2026-05-22",
+          "paymentDate": "2026-06-12",
+          "amount": 0.85,
+          "adjustedAmount": 0.85,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00850",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-20",
+          "amount": 0.8,
+          "adjustedAmount": 0.8,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00878",
+      "name": "國泰永續高股息",
+      "fullName": "國泰永續高股息",
+      "index": "MSCI臺灣ESG永續高股息精選30指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2020-07-20",
+      "underOneYear": false,
+      "price": 30.86,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 116429964,
+      "trailingDividend": 2.09,
+      "trailingYield": 6.772521062864549,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00878",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 1.01,
+          "adjustedAmount": 1.01,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00878",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.66,
+          "adjustedAmount": 0.66,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00878",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-23",
+          "amount": 0.42,
+          "adjustedAmount": 0.42,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00881",
+      "name": "國泰台灣科技龍頭",
+      "fullName": "國泰台灣科技龍頭",
+      "index": "臺灣指數公司特選臺灣上市上櫃FactSet科技龍頭通訊指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2020-12-10",
+      "underOneYear": false,
+      "price": 40.48,
+      "priceDate": "2026-11-17",
+      "dailyChange": -1.08,
+      "volume": 26183382,
+      "trailingDividend": 7.25,
+      "trailingYield": 17.910079051383402,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00881",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 4.6,
+          "adjustedAmount": 4.6,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00881",
+          "exDate": "2026-01-20",
+          "paymentDate": "2026-02-12",
+          "amount": 2.65,
+          "adjustedAmount": 2.65,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00891",
+      "name": "中信關鍵半導體",
+      "fullName": "中信關鍵半導體",
+      "index": "NYSE FactSet 臺灣ESG永續關鍵半導體指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2021-05-28",
+      "underOneYear": false,
+      "price": 27.93,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 50045104,
+      "trailingDividend": 3.55,
+      "trailingYield": 12.710347296813463,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00891",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 1.55,
+          "adjustedAmount": 1.55,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00891",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 1.25,
+          "adjustedAmount": 1.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00891",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 0.75,
+          "adjustedAmount": 0.75,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00892",
+      "name": "富邦台灣半導體",
+      "fullName": "富邦台灣半導體",
+      "index": "NYSE FactSet台灣核心半導體指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2021-06-10",
+      "underOneYear": false,
+      "price": 28.96,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 20273485,
+      "trailingDividend": 2.46,
+      "trailingYield": 8.494475138121546,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00892",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-10",
+          "amount": 2.46,
+          "adjustedAmount": 2.46,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00894",
+      "name": "中信小資高價30",
+      "fullName": "中信小資高價30",
+      "index": "臺灣指數公司特選小資高價30指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2021-08-13",
+      "underOneYear": false,
+      "price": 36.25,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 2435756,
+      "trailingDividend": 3.05,
+      "trailingYield": 8.413793103448274,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00894",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 2.05,
+          "adjustedAmount": 2.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00894",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.6,
+          "adjustedAmount": 0.6,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00894",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 0.4,
+          "adjustedAmount": 0.4,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00896",
+      "name": "中信綠能及電動車",
+      "fullName": "中信綠能及電動車",
+      "index": "臺灣指數公司特選臺灣上市上櫃綠能及電動車指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2021-09-16",
+      "underOneYear": false,
+      "price": 22.9,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.45,
+      "volume": 5044685,
+      "trailingDividend": 3.4000000000000004,
+      "trailingYield": 14.847161572052403,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00896",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 1.45,
+          "adjustedAmount": 1.45,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00896",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-13",
+          "amount": 1.25,
+          "adjustedAmount": 1.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00896",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 0.7,
+          "adjustedAmount": 0.7,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00900",
+      "name": "富邦特選高股息30",
+      "fullName": "富邦特選高股息30",
+      "index": "臺灣指數公司特選臺灣上市上櫃高股息30指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2021-12-22",
+      "underOneYear": false,
+      "price": 17.94,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 3003542,
+      "trailingDividend": 0.8249999999999998,
+      "trailingYield": 4.598662207357859,
+      "payoutCount": 11,
+      "payouts": [
+        {
+          "code": "00900",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-12",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-14",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-10",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-10",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-09",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-11",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-11",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-13",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-02-25",
+          "paymentDate": "2026-03-20",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00900",
+          "exDate": "2026-01-20",
+          "paymentDate": "2026-02-12",
+          "amount": 0.075,
+          "adjustedAmount": 0.075,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00901",
+      "name": "永豐智能車供應鏈",
+      "fullName": "永豐智能車供應鏈",
+      "index": "臺灣指數公司特選上市上櫃臺灣智能車供應鏈聯盟指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2021-12-15",
+      "underOneYear": false,
+      "price": 36.77,
+      "priceDate": "2026-11-17",
+      "dailyChange": -1.21,
+      "volume": 4971048,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00904",
+      "name": "台新臺灣半導體30",
+      "fullName": "台新臺灣半導體30",
+      "index": "臺灣指數公司臺灣全市場半導體精選30指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-03-07",
+      "underOneYear": false,
+      "price": 32,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.88,
+      "volume": 1857807,
+      "trailingDividend": 4.32,
+      "trailingYield": 13.5,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00904",
+          "exDate": "2026-10-16",
+          "paymentDate": "2026-11-06",
+          "amount": 2.2,
+          "adjustedAmount": 2.2,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00904",
+          "exDate": "2026-07-15",
+          "paymentDate": "2026-08-04",
+          "amount": 0.68,
+          "adjustedAmount": 0.68,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00904",
+          "exDate": "2026-04-17",
+          "paymentDate": "2026-05-08",
+          "amount": 0.68,
+          "adjustedAmount": 0.68,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00904",
+          "exDate": "2026-01-16",
+          "paymentDate": "2026-02-05",
+          "amount": 0.76,
+          "adjustedAmount": 0.76,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00905",
+      "name": "FT臺灣Smart",
+      "fullName": "FT臺灣Smart",
+      "index": "臺灣指數公司特選Smart多因子指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-04-21",
+      "underOneYear": false,
+      "price": 21.78,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.55,
+      "volume": 1591408,
+      "trailingDividend": 2.508,
+      "trailingYield": 11.515151515151514,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00905",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-12",
+          "amount": 0.6,
+          "adjustedAmount": 0.6,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00905",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-12",
+          "amount": 1.058,
+          "adjustedAmount": 1.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00905",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-14",
+          "amount": 0.6,
+          "adjustedAmount": 0.6,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00905",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-11",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00907",
+      "name": "永豐優息存股",
+      "fullName": "永豐優息存股",
+      "index": "臺灣指數公司特選臺灣優選入息存股指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-05-24",
+      "underOneYear": false,
+      "price": 17.78,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.07,
+      "volume": 2881644,
+      "trailingDividend": 0.805,
+      "trailingYield": 4.52755905511811,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00907",
+          "exDate": "2026-08-25",
+          "paymentDate": "2026-09-18",
+          "amount": 0.24,
+          "adjustedAmount": 0.24,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00907",
+          "exDate": "2026-06-24",
+          "paymentDate": "2026-07-20",
+          "amount": 0.205,
+          "adjustedAmount": 0.205,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00907",
+          "exDate": "2026-04-23",
+          "paymentDate": "2026-05-20",
+          "amount": 0.2,
+          "adjustedAmount": 0.2,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00907",
+          "exDate": "2026-02-25",
+          "paymentDate": "2026-03-20",
+          "amount": 0.16,
+          "adjustedAmount": 0.16,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00912",
+      "name": "中信臺灣智慧50",
+      "fullName": "中信臺灣智慧50",
+      "index": "臺灣指數公司特選臺灣上市上櫃智慧50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-06-29",
+      "underOneYear": false,
+      "price": 27.44,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.84,
+      "volume": 1226144,
+      "trailingDividend": 4.2,
+      "trailingYield": 15.306122448979592,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00912",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 1.8,
+          "adjustedAmount": 1.8,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00912",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-11",
+          "amount": 1,
+          "adjustedAmount": 1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00912",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.75,
+          "adjustedAmount": 0.75,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00912",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-23",
+          "amount": 0.65,
+          "adjustedAmount": 0.65,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00913",
+      "name": "兆豐台灣晶圓製造ETF",
+      "fullName": "兆豐台灣晶圓製造ETF",
+      "index": "臺灣晶圓製造指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-08-08",
+      "underOneYear": false,
+      "price": 37.63,
+      "priceDate": "2026-11-17",
+      "dailyChange": -1.33,
+      "volume": 1509370,
+      "trailingDividend": 3.38,
+      "trailingYield": 8.982195057135263,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00913",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-04",
+          "amount": 1.78,
+          "adjustedAmount": 1.78,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00913",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-18",
+          "amount": 1.6,
+          "adjustedAmount": 1.6,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00915",
+      "name": "凱基優選高股息30",
+      "fullName": "凱基優選高股息30",
+      "index": "臺灣指數公司特選臺灣上市上櫃多因子優選高股息30指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-08-09",
+      "underOneYear": false,
+      "price": 30.8,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.01,
+      "volume": 4493154,
+      "trailingDividend": 1.4300000000000002,
+      "trailingYield": 4.642857142857143,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00915",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 0.6,
+          "adjustedAmount": 0.6,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00915",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-10",
+          "amount": 0.45,
+          "adjustedAmount": 0.45,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00915",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 0.38,
+          "adjustedAmount": 0.38,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00918",
+      "name": "大華優利高填息30 ETF",
+      "fullName": "大華優利高填息30 ETF",
+      "index": "特選台灣優利高填息30指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-11-24",
+      "underOneYear": false,
+      "price": 31.89,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.17,
+      "volume": 24573104,
+      "trailingDividend": 3.63,
+      "trailingYield": 11.382878645343366,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00918",
+          "exDate": "2026-09-18",
+          "paymentDate": "2026-10-15",
+          "amount": 1.75,
+          "adjustedAmount": 1.75,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00918",
+          "exDate": "2026-06-18",
+          "paymentDate": "2026-07-13",
+          "amount": 1.26,
+          "adjustedAmount": 1.26,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00918",
+          "exDate": "2026-03-19",
+          "paymentDate": "2026-04-14",
+          "amount": 0.62,
+          "adjustedAmount": 0.62,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00919",
+      "name": "群益台灣精選高息",
+      "fullName": "群益台灣精選高息",
+      "index": "臺灣指數公司特選臺灣上市上櫃精選高息指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2022-10-20",
+      "underOneYear": false,
+      "price": 30.39,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.11,
+      "volume": 67758717,
+      "trailingDividend": 2.88,
+      "trailingYield": 9.47680157946693,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00919",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 1.1,
+          "adjustedAmount": 1.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00919",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-13",
+          "amount": 1,
+          "adjustedAmount": 1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00919",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 0.78,
+          "adjustedAmount": 0.78,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00921",
+      "name": "兆豐龍頭等權重",
+      "fullName": "兆豐龍頭等權重",
+      "index": "特選臺灣產業龍頭存股等權重指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-01-13",
+      "underOneYear": false,
+      "price": 21.1,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.35,
+      "volume": 198241,
+      "trailingDividend": 1.59,
+      "trailingYield": 7.535545023696683,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00921",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-07",
+          "amount": 1,
+          "adjustedAmount": 1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00921",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-06",
+          "amount": 0.32,
+          "adjustedAmount": 0.32,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00921",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-07",
+          "amount": 0.27,
+          "adjustedAmount": 0.27,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00922",
+      "name": "國泰台灣領袖50 ETF基金",
+      "fullName": "國泰台灣領袖50 ETF基金",
+      "index": "MSCI台灣領袖50精選指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-03-27",
+      "underOneYear": false,
+      "price": 34.29,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.71,
+      "volume": 24302541,
+      "trailingDividend": 4.1,
+      "trailingYield": 11.95683872849227,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00922",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-12",
+          "amount": 2.1,
+          "adjustedAmount": 2.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00922",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 2,
+          "adjustedAmount": 2,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00923",
+      "name": "群益台ESG低碳50",
+      "fullName": "群益台ESG低碳50",
+      "index": "臺灣指數公司特選臺灣ESG低碳50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-03-08",
+      "underOneYear": false,
+      "price": 33.71,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.72,
+      "volume": 7525701,
+      "trailingDividend": 4.76,
+      "trailingYield": 14.120439038860871,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00923",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 3.05,
+          "adjustedAmount": 3.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00923",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 1.71,
+          "adjustedAmount": 1.71,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00927",
+      "name": "群益半導體收益",
+      "fullName": "群益半導體收益",
+      "index": "臺灣指數公司特選臺灣上市上櫃半導體收益指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-06-06",
+      "underOneYear": false,
+      "price": 29.12,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.45,
+      "volume": 37229684,
+      "trailingDividend": 5.73,
+      "trailingYield": 19.677197802197803,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00927",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 2,
+          "adjustedAmount": 2,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00927",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-11",
+          "amount": 1.88,
+          "adjustedAmount": 1.88,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00927",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.94,
+          "adjustedAmount": 0.94,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00927",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-13",
+          "amount": 0.91,
+          "adjustedAmount": 0.91,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00929",
+      "name": "復華台灣科技優息",
+      "fullName": "復華台灣科技優息",
+      "index": "臺灣指數公司特選臺灣上市上櫃科技優息指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-06-09",
+      "underOneYear": false,
+      "price": 23.89,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.36,
+      "volume": 91223111,
+      "trailingDividend": 2.35,
+      "trailingYield": 9.836751778987024,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00929",
+          "exDate": "2026-10-21",
+          "paymentDate": "2026-11-16",
+          "amount": 0.38,
+          "adjustedAmount": 0.38,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-09-17",
+          "paymentDate": "2026-10-16",
+          "amount": 0.38,
+          "adjustedAmount": 0.38,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-08-19",
+          "paymentDate": "2026-09-14",
+          "amount": 0.38,
+          "adjustedAmount": 0.38,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-07-21",
+          "paymentDate": "2026-08-14",
+          "amount": 0.38,
+          "adjustedAmount": 0.38,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-06-17",
+          "paymentDate": "2026-07-13",
+          "amount": 0.26,
+          "adjustedAmount": 0.26,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-05-20",
+          "paymentDate": "2026-06-15",
+          "amount": 0.13,
+          "adjustedAmount": 0.13,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-04-21",
+          "paymentDate": "2026-05-18",
+          "amount": 0.13,
+          "adjustedAmount": 0.13,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-03-18",
+          "paymentDate": "2026-04-15",
+          "amount": 0.11,
+          "adjustedAmount": 0.11,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-03-03",
+          "paymentDate": "2026-03-27",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00929",
+          "exDate": "2026-01-20",
+          "paymentDate": "2026-02-13",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00930",
+      "name": "永豐ESG低碳高息",
+      "fullName": "永豐ESG低碳高息",
+      "index": "臺灣指數公司特選臺灣上市上櫃ESG低碳高息40指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-07-13",
+      "underOneYear": false,
+      "price": 21.24,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.23,
+      "volume": 1315338,
+      "trailingDividend": 1.666,
+      "trailingYield": 7.8436911487758945,
+      "payoutCount": 5,
+      "payouts": [
+        {
+          "code": "00930",
+          "exDate": "2026-09-23",
+          "paymentDate": "2026-10-20",
+          "amount": 0.815,
+          "adjustedAmount": 0.815,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00930",
+          "exDate": "2026-07-27",
+          "paymentDate": "2026-08-20",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00930",
+          "exDate": "2026-05-26",
+          "paymentDate": "2026-06-18",
+          "amount": 0.31,
+          "adjustedAmount": 0.31,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00930",
+          "exDate": "2026-03-23",
+          "paymentDate": "2026-04-20",
+          "amount": 0.15,
+          "adjustedAmount": 0.15,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00930",
+          "exDate": "2026-01-20",
+          "paymentDate": "2026-02-13",
+          "amount": 0.141,
+          "adjustedAmount": 0.141,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00932",
+      "name": "兆豐永續高息等權",
+      "fullName": "兆豐永續高息等權",
+      "index": "臺灣ESG永續高股息等權重指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-09-01",
+      "underOneYear": false,
+      "price": 15.52,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 413385,
+      "trailingDividend": 0.67,
+      "trailingYield": 4.317010309278351,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00932",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-04",
+          "amount": 0.23,
+          "adjustedAmount": 0.23,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00932",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-05",
+          "amount": 0.22,
+          "adjustedAmount": 0.22,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00932",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-18",
+          "amount": 0.22,
+          "adjustedAmount": 0.22,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00934",
+      "name": "中信成長高股息",
+      "fullName": "中信成長高股息",
+      "index": "臺灣指數公司特選臺灣上市上櫃優選成長高股息指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-11-01",
+      "underOneYear": false,
+      "price": 26.1,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 8096280,
+      "trailingDividend": 2.4850000000000003,
+      "trailingYield": 9.521072796934867,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00934",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 0.5,
+          "adjustedAmount": 0.5,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 0.33,
+          "adjustedAmount": 0.33,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 0.3,
+          "adjustedAmount": 0.3,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-11",
+          "amount": 0.3,
+          "adjustedAmount": 0.3,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-13",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.143,
+          "adjustedAmount": 0.143,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 0.14,
+          "adjustedAmount": 0.14,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 0.14,
+          "adjustedAmount": 0.14,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00934",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-23",
+          "amount": 0.132,
+          "adjustedAmount": 0.132,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00935",
+      "name": "野村臺灣新科技50",
+      "fullName": "野村臺灣新科技50",
+      "index": "臺灣指數公司特選臺灣上市上櫃FactSet創新科技50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-11-01",
+      "underOneYear": false,
+      "price": 45.5,
+      "priceDate": "2026-11-17",
+      "dailyChange": -1.25,
+      "volume": 20325965,
+      "trailingDividend": 3.0300000000000002,
+      "trailingYield": 6.65934065934066,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00935",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 1.83,
+          "adjustedAmount": 1.83,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00935",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 1.2,
+          "adjustedAmount": 1.2,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00936",
+      "name": "台新永續高息中小型ETF",
+      "fullName": "台新永續高息中小型ETF",
+      "index": "台灣永續高息中小型指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2023-11-08",
+      "underOneYear": false,
+      "price": 18.39,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.21,
+      "volume": 1627186,
+      "trailingDividend": 1.1400000000000001,
+      "trailingYield": 6.199021207177815,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00936",
+          "exDate": "2026-10-16",
+          "paymentDate": "2026-11-06",
+          "amount": 0.16,
+          "adjustedAmount": 0.16,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-09-15",
+          "paymentDate": "2026-10-07",
+          "amount": 0.16,
+          "adjustedAmount": 0.16,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-08-17",
+          "paymentDate": "2026-09-04",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-07-15",
+          "paymentDate": "2026-08-04",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-06-15",
+          "paymentDate": "2026-07-06",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-05-18",
+          "paymentDate": "2026-06-05",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-04-17",
+          "paymentDate": "2026-05-08",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-03-16",
+          "paymentDate": "2026-04-07",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-02-25",
+          "paymentDate": "2026-03-18",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00936",
+          "exDate": "2026-01-16",
+          "paymentDate": "2026-02-05",
+          "amount": 0.06,
+          "adjustedAmount": 0.06,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00938",
+      "name": "凱基優選30",
+      "fullName": "凱基優選30",
+      "index": "臺灣指數公司特選臺灣上市上櫃優選多因子30指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-10-23",
+      "underOneYear": false,
+      "price": 25.2,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 2685860,
+      "trailingDividend": 0.74,
+      "trailingYield": 2.9365079365079363,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00938",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 0.32,
+          "adjustedAmount": 0.32,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00938",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.22,
+          "adjustedAmount": 0.22,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00938",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 0.2,
+          "adjustedAmount": 0.2,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00939",
+      "name": "統一台灣高息動能ETF基金",
+      "fullName": "統一台灣高息動能ETF基金",
+      "index": "特選臺灣高息動能指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-03-20",
+      "underOneYear": false,
+      "price": 23.63,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.03,
+      "volume": 6855191,
+      "trailingDividend": 0.8599999999999998,
+      "trailingYield": 3.6394413880660172,
+      "payoutCount": 9,
+      "payouts": [
+        {
+          "code": "00939",
+          "exDate": "2026-10-05",
+          "paymentDate": "2026-10-29",
+          "amount": 0.125,
+          "adjustedAmount": 0.125,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-09-01",
+          "paymentDate": "2026-09-23",
+          "amount": 0.125,
+          "adjustedAmount": 0.125,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-07-31",
+          "paymentDate": "2026-08-24",
+          "amount": 0.125,
+          "adjustedAmount": 0.125,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-07-02",
+          "paymentDate": "2026-07-24",
+          "amount": 0.125,
+          "adjustedAmount": 0.125,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-06-02",
+          "paymentDate": "2026-06-25",
+          "amount": 0.072,
+          "adjustedAmount": 0.072,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-05-04",
+          "paymentDate": "2026-05-26",
+          "amount": 0.072,
+          "adjustedAmount": 0.072,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-03-31",
+          "paymentDate": "2026-04-24",
+          "amount": 0.072,
+          "adjustedAmount": 0.072,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-03-11",
+          "paymentDate": "2026-04-02",
+          "amount": 0.072,
+          "adjustedAmount": 0.072,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00939",
+          "exDate": "2026-02-02",
+          "paymentDate": "2026-03-04",
+          "amount": 0.072,
+          "adjustedAmount": 0.072,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00940",
+      "name": "元大台灣價值高息",
+      "fullName": "元大台灣價值高息",
+      "index": "臺灣指數公司特選臺灣價值高息指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-04-01",
+      "underOneYear": false,
+      "price": 11.8,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.14,
+      "volume": 17387383,
+      "trailingDividend": 0.48499999999999993,
+      "trailingYield": 4.110169491525423,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00940",
+          "exDate": "2026-10-07",
+          "paymentDate": "2026-11-02",
+          "amount": 0.055,
+          "adjustedAmount": 0.055,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-09-08",
+          "paymentDate": "2026-10-01",
+          "amount": 0.055,
+          "adjustedAmount": 0.055,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-08-11",
+          "paymentDate": "2026-09-01",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-07-09",
+          "paymentDate": "2026-08-03",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-06-09",
+          "paymentDate": "2026-07-01",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-05-07",
+          "paymentDate": "2026-06-01",
+          "amount": 0.045,
+          "adjustedAmount": 0.045,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-04-09",
+          "paymentDate": "2026-05-04",
+          "amount": 0.045,
+          "adjustedAmount": 0.045,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-03-11",
+          "paymentDate": "2026-04-01",
+          "amount": 0.045,
+          "adjustedAmount": 0.045,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-02-02",
+          "paymentDate": "2026-03-02",
+          "amount": 0.045,
+          "adjustedAmount": 0.045,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00940",
+          "exDate": "2026-01-08",
+          "paymentDate": "2026-02-02",
+          "amount": 0.045,
+          "adjustedAmount": 0.045,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00943",
+      "name": "兆豐電子高息等權",
+      "fullName": "兆豐電子高息等權",
+      "index": "臺灣電子成長高息等權重指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-05-20",
+      "underOneYear": false,
+      "price": 17.97,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 1842389,
+      "trailingDividend": 1.338,
+      "trailingYield": 7.445742904841403,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00943",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-06",
+          "amount": 0.36,
+          "adjustedAmount": 0.36,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-07",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-04",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-04",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-06",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-05",
+          "amount": 0.09,
+          "adjustedAmount": 0.09,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-08",
+          "amount": 0.071,
+          "adjustedAmount": 0.071,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-07",
+          "amount": 0.072,
+          "adjustedAmount": 0.072,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-18",
+          "amount": 0.07,
+          "adjustedAmount": 0.07,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00943",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-05",
+          "amount": 0.065,
+          "adjustedAmount": 0.065,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00944",
+      "name": "野村趨勢動能高息",
+      "fullName": "野村趨勢動能高息",
+      "index": "臺灣指數公司特選臺灣上市上櫃FactSet臺灣趨勢動能高股息指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-05-09",
+      "underOneYear": false,
+      "price": 19.5,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 461754,
+      "trailingDividend": 0.7600000000000002,
+      "trailingYield": 3.8974358974358982,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00944",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 0.109,
+          "adjustedAmount": 0.109,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 0.109,
+          "adjustedAmount": 0.109,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 0.109,
+          "adjustedAmount": 0.109,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-13",
+          "amount": 0.109,
+          "adjustedAmount": 0.109,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-10",
+          "amount": 0.054,
+          "adjustedAmount": 0.054,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.054,
+          "adjustedAmount": 0.054,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.054,
+          "adjustedAmount": 0.054,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 0.054,
+          "adjustedAmount": 0.054,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-26",
+          "amount": 0.054,
+          "adjustedAmount": 0.054,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00944",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-12",
+          "amount": 0.054,
+          "adjustedAmount": 0.054,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00946",
+      "name": "群益科技高息成長",
+      "fullName": "群益科技高息成長",
+      "index": "臺灣指數公司特選臺灣上市上櫃科技高息成長指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-05-09",
+      "underOneYear": false,
+      "price": 13.22,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.08,
+      "volume": 3266852,
+      "trailingDividend": 0.5800000000000001,
+      "trailingYield": 4.387291981845689,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00946",
+          "exDate": "2026-10-07",
+          "paymentDate": "2026-10-30",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-09-02",
+          "paymentDate": "2026-09-30",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-08-04",
+          "paymentDate": "2026-08-28",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-07-06",
+          "paymentDate": "2026-07-30",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-06-02",
+          "paymentDate": "2026-06-29",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-05-06",
+          "paymentDate": "2026-05-29",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-04-02",
+          "paymentDate": "2026-04-30",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-03-12",
+          "paymentDate": "2026-04-09",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-02-03",
+          "paymentDate": "2026-03-11",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00946",
+          "exDate": "2026-01-06",
+          "paymentDate": "2026-01-30",
+          "amount": 0.058,
+          "adjustedAmount": 0.058,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00947",
+      "name": "台新臺灣IC設計動能ETF基金",
+      "fullName": "台新臺灣IC設計動能ETF基金",
+      "index": "台灣IC設計動能指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-06-12",
+      "underOneYear": false,
+      "price": 27.91,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.76,
+      "volume": 10083394,
+      "trailingDividend": 2.54,
+      "trailingYield": 9.100680759584378,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00947",
+          "exDate": "2026-10-16",
+          "paymentDate": "2026-11-06",
+          "amount": 2,
+          "adjustedAmount": 2,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00947",
+          "exDate": "2026-07-15",
+          "paymentDate": "2026-08-04",
+          "amount": 0.3,
+          "adjustedAmount": 0.3,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00947",
+          "exDate": "2026-04-17",
+          "paymentDate": "2026-05-08",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00947",
+          "exDate": "2026-01-16",
+          "paymentDate": "2026-02-05",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00952",
+      "name": "凱基台灣AI 50",
+      "fullName": "凱基台灣AI 50",
+      "index": "臺灣指數公司特選臺灣上市上櫃FactSet優選AI 50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-09-05",
+      "underOneYear": false,
+      "price": 14.11,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 2487194,
+      "trailingDividend": 0.9000000000000001,
+      "trailingYield": 6.378454996456415,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00952",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-11",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-10",
+          "amount": 0.12,
+          "adjustedAmount": 0.12,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-14",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00952",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-23",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00961",
+      "name": "FT臺灣永續高息",
+      "fullName": "FT臺灣永續高息",
+      "index": "NYSE臺灣ESG高息指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-10-15",
+      "underOneYear": false,
+      "price": 12.39,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 6879689,
+      "trailingDividend": 1.169,
+      "trailingYield": 9.435028248587571,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00961",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-12",
+          "amount": 0.09,
+          "adjustedAmount": 0.09,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-14",
+          "amount": 0.19,
+          "adjustedAmount": 0.19,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-10",
+          "amount": 0.19,
+          "adjustedAmount": 0.19,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-12",
+          "amount": 0.19,
+          "adjustedAmount": 0.19,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-09",
+          "amount": 0.15,
+          "adjustedAmount": 0.15,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-11",
+          "amount": 0.108,
+          "adjustedAmount": 0.108,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-14",
+          "amount": 0.049,
+          "adjustedAmount": 0.049,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-13",
+          "amount": 0.122,
+          "adjustedAmount": 0.122,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 0.06,
+          "adjustedAmount": 0.06,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00961",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-11",
+          "amount": 0.02,
+          "adjustedAmount": 0.02,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00962",
+      "name": "台新AI優息動能基金",
+      "fullName": "台新AI優息動能基金",
+      "index": "台灣AI優息動能指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2024-12-06",
+      "underOneYear": false,
+      "price": 11.83,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.13,
+      "volume": 4138910,
+      "trailingDividend": 1.03,
+      "trailingYield": 8.706677937447168,
+      "payoutCount": 10,
+      "payouts": [
+        {
+          "code": "00962",
+          "exDate": "2026-10-16",
+          "paymentDate": "2026-11-06",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-09-15",
+          "paymentDate": "2026-10-07",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-08-17",
+          "paymentDate": "2026-09-04",
+          "amount": 0.16,
+          "adjustedAmount": 0.16,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-07-15",
+          "paymentDate": "2026-08-04",
+          "amount": 0.08,
+          "adjustedAmount": 0.08,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-06-15",
+          "paymentDate": "2026-07-06",
+          "amount": 0.08,
+          "adjustedAmount": 0.08,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-05-18",
+          "paymentDate": "2026-06-05",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-04-17",
+          "paymentDate": "2026-05-08",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-03-16",
+          "paymentDate": "2026-04-07",
+          "amount": 0.05,
+          "adjustedAmount": 0.05,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-02-25",
+          "paymentDate": "2026-03-18",
+          "amount": 0.03,
+          "adjustedAmount": 0.03,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00962",
+          "exDate": "2026-01-16",
+          "paymentDate": "2026-02-05",
+          "amount": 0.03,
+          "adjustedAmount": 0.03,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "009802",
+      "name": "富邦旗艦50",
+      "fullName": "富邦旗艦50",
+      "index": "臺灣指數公司台灣上市上櫃旗艦動能50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2025-03-19",
+      "underOneYear": false,
+      "price": 16.65,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.25,
+      "volume": 4930061,
+      "trailingDividend": 0.479,
+      "trailingYield": 2.876876876876877,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "009802",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-14",
+          "amount": 0.189,
+          "adjustedAmount": 0.189,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009802",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-09",
+          "amount": 0.198,
+          "adjustedAmount": 0.198,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009802",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-13",
+          "amount": 0.092,
+          "adjustedAmount": 0.092,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "009803",
+      "name": "玉山市值動能50",
+      "fullName": "玉山市值動能50",
+      "index": "臺灣指數公司特選FactSet臺灣市值動能50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2025-03-13",
+      "underOneYear": false,
+      "price": 17.63,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.28,
+      "volume": 5145504,
+      "trailingDividend": 1.65,
+      "trailingYield": 9.359047078842881,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "009803",
+          "exDate": "2026-09-15",
+          "paymentDate": "2026-10-12",
+          "amount": 0.9,
+          "adjustedAmount": 0.9,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009803",
+          "exDate": "2026-06-15",
+          "paymentDate": "2026-07-07",
+          "amount": 0.5,
+          "adjustedAmount": 0.5,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009803",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-09",
+          "amount": 0.25,
+          "adjustedAmount": 0.25,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "009804",
+      "name": "聯邦台灣精彩50ETF基金",
+      "fullName": "聯邦台灣精彩50ETF基金",
+      "index": "富時臺灣證券交易所臺灣50權重上限30%指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2025-04-16",
+      "underOneYear": false,
+      "price": 19.6,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.45,
+      "volume": 1486776,
+      "trailingDividend": 2.406,
+      "trailingYield": 12.275510204081632,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "009804",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-10",
+          "amount": 1.53,
+          "adjustedAmount": 1.53,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009804",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-14",
+          "amount": 0.876,
+          "adjustedAmount": 0.876,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "009808",
+      "name": "華南永昌優選50",
+      "fullName": "華南永昌優選50",
+      "index": "臺灣護城河概念優選 50 指數",
+      "category": "dividend",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2025-05-16",
+      "underOneYear": false,
+      "price": 26.7,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 380478,
+      "trailingDividend": 1.621,
+      "trailingYield": 6.071161048689139,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "009808",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-04",
+          "amount": 0.57,
+          "adjustedAmount": 0.57,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009808",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-05",
+          "amount": 0.57,
+          "adjustedAmount": 0.57,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009808",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-18",
+          "amount": 0.481,
+          "adjustedAmount": 0.481,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "009809",
+      "name": "富邦淨零ESG50",
+      "fullName": "富邦淨零ESG50",
+      "index": "S&amp;P TIP臺灣淨零轉型ESG 50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2025-10-14",
+      "underOneYear": false,
+      "price": 15.82,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.37,
+      "volume": 546497,
+      "trailingDividend": 0.315,
+      "trailingYield": 1.991150442477876,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "009809",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-14",
+          "amount": 0.215,
+          "adjustedAmount": 0.215,
+          "splitDivisor": 1
+        },
+        {
+          "code": "009809",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-09",
+          "amount": 0.1,
+          "adjustedAmount": 0.1,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00980A",
+      "name": "主動野村臺灣優選",
+      "fullName": "主動野村臺灣優選",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-05-05",
+      "underOneYear": false,
+      "price": 17.91,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 20193249,
+      "trailingDividend": 1.4859999999999998,
+      "trailingYield": 8.297040759352315,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00980A",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 0.638,
+          "adjustedAmount": 0.638,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00980A",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.48,
+          "adjustedAmount": 0.48,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00980A",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-26",
+          "amount": 0.368,
+          "adjustedAmount": 0.368,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "009816",
+      "name": "凱基台灣TOP50",
+      "fullName": "凱基台灣TOP50",
+      "index": "臺灣指數公司特選臺灣TOP 50指數",
+      "category": "market",
+      "type": "國內成分證券指數股票型基金",
+      "listed": "2026-02-03",
+      "underOneYear": true,
+      "price": 14.07,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.32,
+      "volume": 257745169,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00981A",
+      "name": "主動統一台股增長",
+      "fullName": "主動統一台股增長",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-05-27",
+      "underOneYear": false,
+      "price": 21.53,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.97,
+      "volume": 375577437,
+      "trailingDividend": 1.67,
+      "trailingYield": 7.756618671620993,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00981A",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-13",
+          "amount": 0.63,
+          "adjustedAmount": 0.63,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00981A",
+          "exDate": "2026-06-16",
+          "paymentDate": "2026-07-09",
+          "amount": 0.63,
+          "adjustedAmount": 0.63,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00981A",
+          "exDate": "2026-03-17",
+          "paymentDate": "2026-04-10",
+          "amount": 0.41,
+          "adjustedAmount": 0.41,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00982A",
+      "name": "主動群益台灣強棒",
+      "fullName": "主動群益台灣強棒",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-05-22",
+      "underOneYear": false,
+      "price": 16.31,
+      "priceDate": "2026-11-17",
+      "dailyChange": 0,
+      "volume": 69259277,
+      "trailingDividend": 1.657,
+      "trailingYield": 10.159411404046597,
+      "payoutCount": 3,
+      "payouts": [
+        {
+          "code": "00982A",
+          "exDate": "2026-08-18",
+          "paymentDate": "2026-09-11",
+          "amount": 0.64,
+          "adjustedAmount": 0.64,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00982A",
+          "exDate": "2026-05-19",
+          "paymentDate": "2026-06-12",
+          "amount": 0.64,
+          "adjustedAmount": 0.64,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00982A",
+          "exDate": "2026-02-26",
+          "paymentDate": "2026-03-25",
+          "amount": 0.377,
+          "adjustedAmount": 0.377,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00984A",
+      "name": "主動安聯台灣高息",
+      "fullName": "主動安聯台灣高息",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-07-14",
+      "underOneYear": false,
+      "price": 12.49,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.42,
+      "volume": 7970143,
+      "trailingDividend": 1.3239999999999998,
+      "trailingYield": 10.600480384307446,
+      "payoutCount": 4,
+      "payouts": [
+        {
+          "code": "00984A",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 0.473,
+          "adjustedAmount": 0.473,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00984A",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-11",
+          "amount": 0.415,
+          "adjustedAmount": 0.415,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00984A",
+          "exDate": "2026-04-20",
+          "paymentDate": "2026-05-15",
+          "amount": 0.268,
+          "adjustedAmount": 0.268,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00984A",
+          "exDate": "2026-01-19",
+          "paymentDate": "2026-02-12",
+          "amount": 0.168,
+          "adjustedAmount": 0.168,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00985A",
+      "name": "主動野村台灣50",
+      "fullName": "主動野村台灣50",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-07-21",
+      "underOneYear": false,
+      "price": 16.83,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.57,
+      "volume": 19673836,
+      "trailingDividend": 2.15,
+      "trailingYield": 12.774806892453952,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00985A",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 2.15,
+          "adjustedAmount": 2.15,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00987A",
+      "name": "主動台新優勢成長",
+      "fullName": "主動台新優勢成長",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-12-30",
+      "underOneYear": true,
+      "price": 12.11,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.84,
+      "volume": 5848693,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00991A",
+      "name": "主動復華未來50",
+      "fullName": "主動復華未來50",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-12-18",
+      "underOneYear": true,
+      "price": 12.36,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.73,
+      "volume": 122723309,
+      "trailingDividend": 0.77,
+      "trailingYield": 6.229773462783172,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00991A",
+          "exDate": "2026-07-21",
+          "paymentDate": "2026-08-14",
+          "amount": 0.77,
+          "adjustedAmount": 0.77,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00992A",
+      "name": "主動群益科技創新",
+      "fullName": "主動群益科技創新",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2025-12-30",
+      "underOneYear": true,
+      "price": 12.58,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.75,
+      "volume": 129595129,
+      "trailingDividend": 1.3199999999999998,
+      "trailingYield": 10.492845786963432,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00992A",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 0.85,
+          "adjustedAmount": 0.85,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00992A",
+          "exDate": "2026-07-16",
+          "paymentDate": "2026-08-11",
+          "amount": 0.47,
+          "adjustedAmount": 0.47,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00993A",
+      "name": "主動安聯台灣",
+      "fullName": "主動安聯台灣",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-02-03",
+      "underOneYear": true,
+      "price": 9.54,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.6,
+      "volume": 10846844,
+      "trailingDividend": 0,
+      "trailingYield": null,
+      "payoutCount": 0,
+      "payouts": [],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00994A",
+      "name": "主動第一金台股優",
+      "fullName": "主動第一金台股優",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-01-07",
+      "underOneYear": true,
+      "price": 12.2,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.82,
+      "volume": 3674235,
+      "trailingDividend": 0.7190000000000001,
+      "trailingYield": 5.893442622950821,
+      "payoutCount": 2,
+      "payouts": [
+        {
+          "code": "00994A",
+          "exDate": "2026-09-18",
+          "paymentDate": "2026-10-15",
+          "amount": 0.257,
+          "adjustedAmount": 0.257,
+          "splitDivisor": 1
+        },
+        {
+          "code": "00994A",
+          "exDate": "2026-06-18",
+          "paymentDate": "2026-07-13",
+          "amount": 0.462,
+          "adjustedAmount": 0.462,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00995A",
+      "name": "主動中信台灣卓越",
+      "fullName": "主動中信台灣卓越",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-01-22",
+      "underOneYear": true,
+      "price": 12.17,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.63,
+      "volume": 6553671,
+      "trailingDividend": 0.5,
+      "trailingYield": 4.108463434675431,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00995A",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-13",
+          "amount": 0.5,
+          "adjustedAmount": 0.5,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00996A",
+      "name": "主動兆豐台灣豐收",
+      "fullName": "主動兆豐台灣豐收",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-03-25",
+      "underOneYear": true,
+      "price": 9.98,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.57,
+      "volume": 16836155,
+      "trailingDividend": 0.73,
+      "trailingYield": 7.314629258517033,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00996A",
+          "exDate": "2026-10-19",
+          "paymentDate": "2026-11-06",
+          "amount": 0.73,
+          "adjustedAmount": 0.73,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    },
+    {
+      "code": "00999A",
+      "name": "主動野村臺灣高息",
+      "fullName": "主動野村臺灣高息",
+      "index": "不適用",
+      "category": "active",
+      "type": "國內成分證券主動式交易所交易基金(股票)",
+      "listed": "2026-05-05",
+      "underOneYear": true,
+      "price": 8.58,
+      "priceDate": "2026-11-17",
+      "dailyChange": -0.34,
+      "volume": 14182438,
+      "trailingDividend": 0.29,
+      "trailingYield": 3.37995337995338,
+      "payoutCount": 1,
+      "payouts": [
+        {
+          "code": "00999A",
+          "exDate": "2026-09-16",
+          "paymentDate": "2026-10-15",
+          "amount": 0.29,
+          "adjustedAmount": 0.29,
+          "splitDivisor": 1
+        }
+      ],
+      "expenseRatio": null,
+      "knownSplitsAdjusted": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#175c47">
+  <meta name="description" content="用可調整的假設探索台股 ETF 長期投資。比較定期定額、股息再投入與領息情境，查閱證交所收盤及配息資料。">
+  <title>ETF 慢慢存｜把今天的投入，變成未來的選擇</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23175c47'/%3E%3Cpath d='M10 27V20M20 27V14M30 27V8' stroke='%23e7efb6' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 3v17h17M8 14l4-5 4 2 5-7"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="i-compare" viewBox="0 0 24 24"><path d="M8 3v18M16 3v18M3 8l5-5 5 5M11 16l5 5 5-5"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1v15"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v.1"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.3.9-4.5 4.4 1.1 6.2-5.7-3-5.7 3 1.1-6.2L3.2 9.6l6.3-.9z"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="ETF 慢慢存首頁"><span class="brand-mark"><i></i><i></i><i></i></span><span>ETF 慢慢存<small>SMALL STEPS. BIG FUTURES.</small></span></a>
+    <div class="nav-label">我的投資工作台</div>
+    <nav aria-label="主要導覽">
+      <a href="#overview" class="nav-item active"><svg><use href="#i-grid"/></svg>投資試算<span class="nav-dot"></span></a>
+      <a href="#explore" class="nav-item"><svg><use href="#i-search"/></svg>探索台股 ETF</a>
+      <a href="#goals" class="nav-item"><svg><use href="#i-target"/></svg>現金流目標</a>
+      <a href="#compare" class="nav-item"><svg><use href="#i-compare"/></svg>我的比較清單<span id="compare-count" class="count">0</span></a>
+      <a href="#learn" class="nav-item"><svg><use href="#i-book"/></svg>投資前，先懂一點</a>
+    </nav>
+    <div class="sidebar-note"><span class="leaf">✳</span><strong>慢慢來，也是一種策略。</strong><p>從一個你能持續的計畫開始，<br>讓時間成為你的隊友。</p></div>
+    <div class="sidebar-foot"><span class="status-dot"></span>官方資料 · 本機試算<br><small>不連結銀行帳戶，不執行交易</small></div>
+  </aside>
+
+  <div class="app-shell">
+    <header class="topbar"><span>你的長期投資，由你決定。</span><div><span class="data-pill"><span class="status-dot"></span><span id="market-date">正在讀取官方資料</span></span><a href="#learn" class="help-link" aria-label="查看試算說明"><svg><use href="#i-info"/></svg></a></div></header>
+    <main id="main">
+      <section id="overview" class="page-view">
+        <div class="page-heading"><div><div class="eyebrow">PLAN TODAY, GROW TOMORROW</div><h1>把今天的投入，<span>變成未來的選擇。</span></h1><p>選一檔 ETF，調整你的步調，看看時間與複利能帶你走多遠。</p></div><button class="button secondary" id="save-plan"><svg><use href="#i-check"/></svg>儲存我的計畫</button></div>
+        <div id="quick-funds" class="quick-funds" aria-label="常用 ETF 快速選擇"></div>
+        <div class="workspace-grid">
+          <section class="card planner" aria-labelledby="planner-heading">
+            <div class="card-title"><h2 id="planner-heading"><span class="step-number">01</span>設定你的投資計畫</h2><button class="text-button" id="reset-plan">重設</button></div>
+            <form id="plan-form" novalidate>
+              <label class="field-label" for="fund-select">想了解哪一檔 ETF？</label>
+              <div class="select-wrap"><select id="fund-select" aria-describedby="fund-summary"><option value="">讀取中…</option></select></div>
+              <div id="fund-summary" class="fund-summary"></div>
+              <div class="field"><label for="initial">首次投入金額</label><div class="input-unit"><span>NT$</span><input id="initial" name="initial" type="number" min="0" max="1000000000" step="10000" value="100000" inputmode="decimal"></div></div>
+              <div class="field"><label for="monthly">每月定期定額<span class="label-note">每月底投入</span></label><div class="input-unit"><span>NT$</span><input id="monthly" name="monthly" type="number" min="0" max="10000000" step="1000" value="10000" inputmode="decimal"></div></div>
+              <div class="field"><label for="years">想存多久？<strong><output id="years-output">20</output> 年</strong></label><input id="years" name="years" class="range" type="range" min="1" max="50" step="1" value="20"><div class="range-labels"><span>1 年</span><span>25 年</span><span>50 年</span></div></div>
+              <div class="assumptions"><div class="mini-heading">未來報酬假設 <span>自行設定，非 ETF 預測</span></div><div class="input-pair"><div class="field"><label for="priceReturn">股價年成長率</label><div class="input-unit suffix"><input id="priceReturn" name="priceReturn" type="number" min="-50" max="50" step="0.5" value="4"><span>%</span></div></div><div class="field"><label for="dividendYield">年配息率假設</label><div class="input-unit suffix"><input id="dividendYield" name="dividendYield" type="number" min="0" max="30" step="0.5" value="3"><span>%</span></div></div></div><p>股價成長率不含配息；請勿填入含息總報酬，以免重複計算。</p></div>
+              <fieldset class="dividend-modes"><legend>收到的股息，怎麼安排？</legend><div class="mode-options"><label><input type="radio" name="mode" value="reinvest" checked><span>再投入</span></label><label><input type="radio" name="mode" value="cash"><span>領現金</span></label><label><input type="radio" name="mode" value="exclude"><span>不含息</span></label></div><p id="mode-description">讓股息繼續參與投資，觀察複利的累積。</p></fieldset>
+              <details class="advanced"><summary>進階設定：費用、稅與通膨<span>＋</span></summary><div class="input-pair"><div class="field"><label for="inflation">年通膨假設 %</label><input id="inflation" name="inflation" type="number" min="0" max="20" step="0.5" value="2"></div><div class="field"><label for="contributionGrowth">每年增額投入 %</label><input id="contributionGrowth" name="contributionGrowth" type="number" min="0" max="20" step="1" value="0"></div><div class="field"><label for="buyFee">買進手續費 %</label><input id="buyFee" name="buyFee" type="number" min="0" max="5" step="0.01" value="0"></div><div class="field"><label for="dividendTax">股息有效稅率 %</label><input id="dividendTax" name="dividendTax" type="number" min="0" max="50" step="1" value="0"></div></div><label class="checkbox-label"><input id="liquidate" name="liquidate" type="checkbox">期末以賣出後淨額估算</label><div class="input-pair"><div class="field"><label for="sellFee">賣出手續費 %</label><input id="sellFee" name="sellFee" type="number" min="0" max="5" step="0.01" value="0"></div><div class="field"><label for="sellTax">賣出交易稅 %</label><input id="sellTax" name="sellTax" type="number" min="0" max="5" step="0.01" value="0"></div></div><p>費稅率預設為 0，請依券商與個人情況填寫；未自動套用稅法、最低手續費或健保補充保費。</p></details>
+              <div id="form-error" class="form-error" role="alert" hidden></div>
+            </form>
+          </section>
+
+          <div class="results-column">
+            <section class="card result-card" aria-labelledby="result-heading"><div class="result-top"><div><span class="eyebrow">你的未來資產藍圖</span><h2 id="result-heading"><span id="result-years">20</span> 年後，可能累積的合計資產</h2><div class="hero-value"><span>NT$</span><strong id="total-assets">—</strong></div><p id="result-caption">試算中</p></div><div class="growth-badge"><svg><use href="#i-chart"/></svg><span>一步一步<br><strong>讓未來長大</strong></span></div></div>
+              <div class="result-stats"><div><span>累計投入本金</span><strong id="total-invested">—</strong></div><div><span>預估累積損益</span><strong id="total-profit">—</strong></div><div><span>換算今日購買力</span><strong id="real-assets">—</strong></div></div>
+              <div class="chart-heading"><h3>看見時間的力量</h3><span class="chart-unit">單位：萬元</span></div><div id="growth-chart" class="growth-chart" aria-live="off"></div><div class="chart-legend"><span><i class="legend-line green"></i>股息再投入</span><span><i class="legend-line gold"></i>股息領現＋持有部位</span><span><i class="legend-line gray"></i>不含息</span><span><i class="legend-line dashed"></i>累計投入</span></div>
+              <div class="chart-footnote"><svg><use href="#i-info"/></svg><span>三條線使用相同的投入與報酬假設，只改變股息處理方式；皆為情境試算，不代表實際績效。</span></div>
+            </section>
+            <div class="insight-grid"><article class="card insight-card"><span class="icon-bubble"><svg><use href="#i-chart"/></svg></span><div><span class="muted small">讓股息繼續工作</span><h3>再投入與領現的差距</h3><strong id="reinvest-difference">—</strong><p>相同假設下，期末合計資產的差額。</p></div></article><article class="card insight-card"><span class="icon-bubble sand"><svg><use href="#i-target"/></svg></span><div><span class="muted small">未來的日常，多一份從容</span><h3>期末每月股息估算</h3><strong id="monthly-income">—</strong><p>以期末持有部位估算，年配息平均至每月。</p></div></article></div>
+            <section class="card scenarios"><div class="card-title"><h2>未來不只一種可能</h2><span class="small muted">股價成長率敏感度</span></div><div id="scenario-cards" class="scenario-cards"></div><p class="small muted">只將股價年成長率上下調整 2 個百分點，配息率保持不變；不表示發生機率或最佳／最差結果。</p></section>
+          </div>
+        </div>
+        <section class="card yearly-card"><div class="card-title"><div><h2>每一年，都看得更清楚</h2><p>股息再投入已計入 ETF 市值，不會再重複加進合計資產。</p></div><button class="button secondary" id="export-csv"><svg><use href="#i-download"/></svg>匯出 CSV</button></div><div class="table-scroll"><table><thead><tr><th scope="col">年度</th><th scope="col">累計投入</th><th scope="col">ETF 市值</th><th scope="col">累計領現</th><th scope="col">合計資產</th><th scope="col">累積損益</th></tr></thead><tbody id="yearly-body"></tbody></table></div></section>
+      </section>
+
+      <section id="explore" class="page-view" hidden><div class="page-heading"><div><div class="eyebrow">FIND YOUR OWN PACE</div><h1>先認識，再決定。</h1><p>從官方資料了解 ETF 的價格與配息。殖利率是線索，不是全部答案。</p></div><a class="button secondary" href="https://www.twse.com.tw/zh/ETFortune/index" target="_blank" rel="noopener">證交所 ETF e添富 ↗</a></div><section class="card"><div class="explore-toolbar"><label class="search-box"><svg><use href="#i-search"/></svg><input id="fund-search" placeholder="搜尋 ETF 代號、名稱或追蹤指數" aria-label="搜尋 ETF"></label><div class="filter-tabs" role="group" aria-label="篩選 ETF 類型"><button data-filter="all" class="selected">全部</button><button data-filter="market">一般指數</button><button data-filter="dividend">高息相關</button><button data-filter="active">主動式</button><button data-filter="saved">已收藏</button></div></div><div class="data-note" id="universe-note"></div><div class="table-scroll"><table class="funds-table"><thead><tr><th>收藏</th><th>ETF / 追蹤指數</th><th>收盤價</th><th>近一年配息率*</th><th>已發放次數</th><th>比較 / 試算</th></tr></thead><tbody id="funds-body"></tbody></table></div><div id="empty-funds" class="empty-state" hidden>沒有符合條件的 ETF，試試其他關鍵字。</div><p class="table-note">* 配息率為已發放配息加總 ÷ 收盤價，未滿一年不年化。已校正資料表中列出的已知分割，其他分割可能尚未納入，請核對投信公告。這不是含息總報酬率。</p></section></section>
+
+      <section id="goals" class="page-view" hidden><div class="page-heading"><div><div class="eyebrow">MAKE ROOM FOR YOUR FUTURE</div><h1>想要的生活，需要多少準備？</h1><p>從每月現金流目標，反推在目前假設下需要的持有部位與投入。</p></div></div><div class="goal-grid"><section class="card goal-form"><h2>設定每月股息目標</h2><label class="field-label" for="goalMonthly">希望每月平均領到多少？</label><div class="input-unit"><span>NT$</span><input id="goalMonthly" type="number" min="0" max="10000000" step="1000" value="20000"></div><p>此處為未來名目金額，未按通膨調整目標。配息不保證且可能減少。</p><div id="goal-assumptions" class="goal-assumptions"></div><a class="button primary" href="#overview">調整投資假設<svg><use href="#i-arrow"/></svg></a></section><section class="card goal-results"><span class="eyebrow">把願望，變成可理解的數字</span><h2>需要準備的 ETF 持有部位</h2><strong id="goal-assets" class="goal-number">—</strong><div class="goal-divider"></div><span class="muted">依目前年期與股息安排，試算所需月投入</span><strong id="goal-contribution" class="goal-number small-number">—</strong><p id="goal-note"></p></section></div><section class="card stress-card"><div><span class="eyebrow">也替不順利的時候，留一點空間</span><h2>如果期末 ETF 市值突然下跌 30%？</h2><p>這是壓力測試，不是機率預測；已領取並留存的現金不受此跌幅影響。</p></div><div><span class="muted">下跌後的合計資產估算</span><strong id="stress-assets">—</strong><span id="stress-loss"></span></div></section></section>
+
+      <section id="compare" class="page-view" hidden><div class="page-heading"><div><div class="eyebrow">LOOK BEYOND A SINGLE NUMBER</div><h1>放在一起，看得更完整。</h1><p>最多比較 3 檔 ETF。相同的未來假設不代表它們會有相同的實際績效。</p></div><a class="button secondary" href="#explore">新增比較<svg><use href="#i-arrow"/></svg></a></div><div id="compare-content"></div></section>
+
+      <section id="learn" class="page-view" hidden><div class="page-heading"><div><div class="eyebrow">A LITTLE KNOWLEDGE GOES A LONG WAY</div><h1>投資前，先懂一點。</h1><p>看懂數字背後的假設，才知道自己正在做什麼選擇。</p></div></div><div class="learning-grid"><article class="card learning-card"><span class="learning-number">01</span><h2>高配息 ≠ 高報酬</h2><p>配息會從基金淨值中扣除。真正的投資成果要把價差、配息與費用一起看，不能只比較配息率。</p><a href="https://www.twse.com.tw/downloads/zh/ETF/concept06.pdf" target="_blank" rel="noopener">閱讀證交所的說明 ↗</a></article><article class="card learning-card"><span class="learning-number">02</span><h2>同樣投資，股息有三種走法</h2><p>「再投入」將稅後股息買回 ETF；「領現金」把股息累積為不生息現金；「不含息」只看 ETF 價差，完全不計股息。這三種結果的比較，必須使用相同的股價假設。</p></article><article class="card learning-card"><span class="learning-number">03</span><h2>留意集中度與重疊持股</h2><p>買了多檔 ETF，不一定就分散風險。購買前可確認成分股、產業集中度、追蹤指數、基金規模、流動性、追蹤差距及折溢價。</p><a href="https://www.twse.com.tw/zh/ETFortune/index" target="_blank" rel="noopener">查詢官方產品資訊 ↗</a></article><article class="card learning-card"><span class="learning-number">04</span><h2>稅、費用與通膨，也在複利</h2><p>持續的小額費用會影響累積成果；通膨則改變未來金額的購買力。網站的「今日購買力」將期末合計資產按自訂年通膨率折回今天。</p></article></div><section class="card methodology"><h2>這個試算，是怎麼算的？</h2><details open><summary>計算口徑與限制</summary><ul><li>這是未來情境試算，不是歷史回測。選擇 ETF 不會自動改動未來報酬假設。</li><li>股價年成長率代表不含配息的價格變動；每月換算為 (1＋年成長率)^(1/12)－1。</li><li>年配息率按每月期末、投入新本金前的 ETF 市值平均計算；不模擬實際配息日或除息行情。股價假設已是不含配息的價差報酬，不會再從市值扣一次股息。</li><li>首次本金在期初投入，每月本金在月底投入；增額投入每滿一個投資年度調整一次。</li><li>以可分割單位計算，不模擬整數股數、撮合、滑價、最低手續費或券商折扣。持有期間的基金內扣費用視為已反映在股價成長率，不再重複扣除。</li><li>費稅率由使用者設定，不自動判定所得稅、二代健保或個人稅務。買進費用從投入預算中扣除；勾選期末賣出時，賣出費用與交易稅僅扣 ETF 市值。</li><li>「累積損益」是合計資產減投入本金；「累積報酬率」是損益除以投入本金，並非年化報酬率。</li><li>現金流目標以期末持有部位及自訂稅後配息率反推，不含已領現金；使用領息或不含息模式時，仍假設未來持有部位可按設定的配息率發放股息。</li></ul></details><details><summary>官方資料來源、日期與完整性</summary><div id="source-details"></div></details><details><summary>儲存與隱私</summary><p>計畫、收藏與比較清單只保存在這個瀏覽器的 localStorage，不會上傳投資金額。清除瀏覽資料會移除這些設定；網站不提供交易或帳戶連結。</p><button class="button secondary" id="clear-local">清除本機儲存的設定</button></details><p class="method-note">本工具用於理解投資情境，不提供個人化投資建議。未來價格與配息可能低於假設，投資可能損失本金。</p></section></section>
+      <footer class="main-footer"><span class="footer-brand">ETF 慢慢存 <span>・</span> 給未來的自己，多一點餘裕。</span><span>歷史配息不代表未來配息，試算不保證獲利。</span></footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="fund-dialog"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" class="icon-button" aria-label="關閉">×</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
