@@ -1,5 +1,7 @@
 # GitHub 與 Hugging Face 雙向自動同步
 
+設定日期：2026-11-20（台北時間）。GitHub Actions 已配置本專案的加密授權。
+
 同步對象：
 
 - GitHub：`johnnylee830/LEEsufegyw3w8` 的 `main`
