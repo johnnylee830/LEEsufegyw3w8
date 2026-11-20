@@ -2,6 +2,8 @@
 
 設定日期：2026-11-20（台北時間）。GitHub Actions 已配置本專案的加密授權。
 
+同步在 GitHub 雲端執行，不需要保持本機電腦或 VS Code 開啟。
+
 同步對象：
 
 - GitHub：`johnnylee830/LEEsufegyw3w8` 的 `main`
