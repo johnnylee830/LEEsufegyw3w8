@@ -78,6 +78,12 @@ npm.cmd run update-data
 
 靜態 Space 直接讀取 `index.html`，不需 Docker、GPU 或伺服器 API。請勿將 Token 放進原始碼。既有只授權 Photo-Enhancer 的細分 Token 不一定能寫入這個新 Space。
 
+## 雙向自動同步
+
+GitHub main 更新後觸發同步；另外約每五分鐘檢查 Hugging Face main。
+只有可 fast-forward 的變更才會自動傳到另一邊；兩邊分岔時保留歷史，停止並建立 GitHub 衝突通知。
+詳見 [自動同步設定與衝突處理](docs/AUTO_SYNC.md)。需要在 GitHub Actions 設定 `HF_TOKEN` 加密密鑰。
+
 ## 檔案
 
 - `src/math.mjs`：純財務計算，可獨立測試。

@@ -1,0 +1,37 @@
+name: Sync GitHub and Hugging Face
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '2-59/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: etf-bidirectional-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'johnnylee830/LEEsufegyw3w8' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main and its history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+      - name: Sync fast-forward changes and report conflicts
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/sync-repositories.mjs
