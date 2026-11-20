@@ -3,6 +3,7 @@ import { mkdtempSync, writeFileSync, rmSync, appendFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve, sep, basename } from 'node:path';
 import { planSync } from './sync-plan.mjs';
+import { normalizeHfToken, verifyHfIdentity } from './hf-auth.mjs';
 
 const repository = 'johnnylee830/LEEsufegyw3w8';
 const hfRepository = 'LEEsufegyw3w8/Taiwan-ETF-Planner';
@@ -52,6 +53,9 @@ function validateCandidate(sha) {
 if (process.env.GITHUB_REPOSITORY !== repository || process.env.GITHUB_REF !== 'refs/heads/main') throw new Error('This sync is restricted to the configured repository main branch.');
 if (!process.env.HF_TOKEN) throw new Error(`Missing HF_TOKEN. Add the Hugging Face write token at https://github.com/${repository}/settings/secrets/actions`);
 if (!process.env.GITHUB_TOKEN) throw new Error('Missing GitHub Actions token.');
+process.env.HF_TOKEN = normalizeHfToken(process.env.HF_TOKEN);
+await verifyHfIdentity(process.env.HF_TOKEN);
+summary('Hugging Face Token 格式與帳號驗證通過。');
 
 const temp = mkdtempSync(join(tmpdir(), 'etf-sync-'));
 try {
@@ -74,7 +78,7 @@ try {
   if (plan.direction === 'none') summary('兩邊版本相同，無需同步。');
   else {
     // The automation itself is maintained on GitHub. Never let an HF-only edit disable it.
-    const changedAutomation = plan.direction === 'to-github' && [workflow, 'scripts/sync-repositories.mjs', 'scripts/sync-plan.mjs', 'tests/sync.test.mjs'].some(path => {
+    const changedAutomation = plan.direction === 'to-github' && [workflow, 'scripts/sync-repositories.mjs', 'scripts/sync-plan.mjs', 'scripts/hf-auth.mjs', 'tests/sync.test.mjs'].some(path => {
       const ghFile = git(['rev-parse', `${githubSha}:${path}`], true);
       const hfFile = git(['rev-parse', `${hfSha}:${path}`], true);
       return hfFile.status !== 0 || ghFile.status !== 0 || hfFile.stdout.trim() !== ghFile.stdout.trim();

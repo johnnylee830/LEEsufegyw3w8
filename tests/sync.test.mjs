@@ -5,6 +5,17 @@ import { tmpdir } from 'node:os';
 import { resolve, join, sep, basename } from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { planSync } from '../scripts/sync-plan.mjs';
+import { normalizeHfToken, verifyHfIdentity } from '../scripts/hf-auth.mjs';
+
+test('secret input validation trims whitespace and never includes input values in errors', async () => {
+  const sample = 'hf_fake_fixture_only';
+  assert.equal(normalizeHfToken('  '+sample+'\n'),sample);
+  for(const invalid of ['ETF-Auto-Sync','"'+sample+'"',''])assert.throws(()=>normalizeHfToken(invalid),error=>!invalid||!error.message.includes(invalid));
+  await assert.rejects(()=>verifyHfIdentity(sample,async()=>new Response('',{status:401})),/HTTP 401/);
+  await assert.rejects(()=>verifyHfIdentity(sample,async()=>Response.json({name:'another-user'})),/another Hugging Face account/);
+  await assert.rejects(()=>verifyHfIdentity(sample,async()=>Response.json({name:'LEEsufegyw3w8',auth:{accessToken:{role:'read'}}})),/read-only/);
+  await verifyHfIdentity(sample,async()=>Response.json({name:'LEEsufegyw3w8',auth:{accessToken:{role:'fineGrained'}}}));
+});
 
 test('actual Git histories synchronize in both directions and preserve divergence', () => {
   const dir = mkdtempSync(join(tmpdir(), 'etf-sync-test-'));
